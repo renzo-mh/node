@@ -1,0 +1,15 @@
+<table>
+<thead>
+<tr><td>userId</td><td>id</td><td>title</td><td>body</td></tr>
+</thead>
+
+<tbody>
+
+<% resultado.forEach( function(element, index, array ) {  %>
+
+<tr><td><%= element.userId %></td><td><%= element.id %></td><td><%= element.title %></td><td><%= element.body %></td></td>
+
+
+<% })  %>
+</tbody>
+</table>
